@@ -34,5 +34,5 @@ jobs:
         ./sonar-scanner/bin/sonar-scanner \
           -Dsonar.projectKey=cgfKey-laravel \
           -Dsonar.sources=. \
-          -Dsonar.host.url=http://localhost:9000 \
+          -Dsonar.host.url=https://orange-space-robot-p9964xqwrg7f6574-9000.app.github.dev/ \          
           -Dsonar.login=$SONAR_TOKEN
